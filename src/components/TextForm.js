@@ -7,7 +7,7 @@ export default function TextForm(props) {
   };
   const handleonChange = (event) => {
     setText(event.target.value);
-  };
+  }; 
   const handleLowerClick = () => {
     let newText = text.toLowerCase();
     setText(newText);
