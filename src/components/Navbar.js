@@ -48,7 +48,7 @@ export default function NavBar(props) {
     </nav>
   );
 }
-
+// new-featues
 NavBar.prototype = { title: PropTypes.string.isRequired };
 
 NavBar.defaultProps = {
