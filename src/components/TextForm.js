@@ -12,7 +12,7 @@ export default function TextForm(props) {
     let newText = text.toLowerCase();
     setText(newText);
   };
-
+ 
   const [text, setText] = useState("");
   return (
     <>
